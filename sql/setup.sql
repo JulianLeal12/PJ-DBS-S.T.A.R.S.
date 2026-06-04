@@ -16,3 +16,13 @@
 
 -- 4. Datos sinteticos: 6 jugadores, 3 episodios, 20k+ filas
 \i sql/05_sample_data.sql
+
+-- 6. Vistas
+\i sql/06_queries.sql
+ 
+-- 7. Queries analiticas
+\i sql/07_views.sql
+
+-- 4. Indices
+\i sql/08_indexes.sql
+ 
