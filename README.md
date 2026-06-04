@@ -12,12 +12,10 @@ telemetría de sesiones de Chocolate-Doom.
 - psql
 
 ## Cómo ejecutar
+Con setup.sql
 ```bash
 psql -U postgres -d doom_telemetry -f sql/01_schema.sql
 psql -U postgres -d doom_telemetry -f sql/02_etl.sql
 psql -U postgres -d doom_telemetry -f sql/03_ux_instrument_bangs.sql
 psql -U postgres -d doom_telemetry -f sql/05_sample_data.sql
 ```
-
-## Estructura
-(Pendiente)
